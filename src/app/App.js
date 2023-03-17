@@ -45,10 +45,21 @@ const App = () => {
 
         <div className="mx-1/12 font-body">
 
+            {/*
             <div className="mx-auto">
                 <SliderComponent />
             </div>
+            */}
+            <div className={`h-screen flex justify-center items-center`} style={{backgroundImage: `url(${tof1})`, backgroundSize: 'cover'}}>
+                <div className={`space-y-10 bg-gra0 w-8/12 bg-opacity-50 `}>
+                    <div className={`text-white font-semibold text-center text-8xl `}>Grand <br/> titre  presentation</div>
+                    <div className={` text-center text-white  text-4xl  mx-auto`}>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Animi, aut autem blanditiis consequatur corporis cum
 
+                    </div>
+                </div>
+            </div>
 
             <div className={`mt-16`}>
 
