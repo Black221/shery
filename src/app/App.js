@@ -44,25 +44,13 @@ const App = () => {
     return (
 
         <div className="mx-1/12 font-body">
-            <HeadComponent />
 
-            {/*
             <div className="mx-auto">
                 <SliderComponent />
             </div>
-            */}
-            <div className={`h-screen flex justify-center items-center`} style={{backgroundImage: `url(${tof1})`, backgroundSize: 'cover'}}>
-                <div className={`space-y-10 bg-gra0 w-8/12 bg-opacity-50 `}>
-                    <div className={`text-white font-semibold text-center text-8xl `}>Grand <br/> titre  presentation</div>
-                    <div className={` text-center text-white  text-4xl  mx-auto`}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Animi, aut autem blanditiis consequatur corporis cum
 
-                    </div>
-                </div>
-            </div>
 
-            <div className={``}>
+            <div className={`mt-16`}>
 
                 <div className="w-9/12 mx-auto  py-20 bg-white flex flex-col justify-around items-center">
                     <div className={`space-y-10`}>
@@ -99,7 +87,17 @@ const App = () => {
                     </div>
                 </div>
 
-                <div className={`flex flex-wrap justify-around relative bg-white mt-36 items-center`}>
+                <div className={`space-y-10`}>
+                    <div className={`text-[38px] font-semibold text-center`}>Grand titre presentation</div>
+                    <div className={` text-center  text-xl w-9/12 mx-auto `}>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Animi, aut autem blanditiis consequatur corporis cum
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Animi, aut autem blanditiis consequatur corporis cum
+                    </div>
+                </div>
+
+                <div className={`flex flex-wrap justify-around relative bg-white mt-6 items-center`}>
 
                     <div className={` md:w-1/2 bg-red-500`}>
                         <img src={tof2} alt=""/>

@@ -11,9 +11,9 @@ export const SliderComponent = () => {
     const [leftChange, setLeftChange] = useState(false);
 
 
-    const delay = 6000;
+    const delay = 3000;
 
-    const [background, setBackground] = useState([lap5, lap6, lap7]);
+    const [background, setBackground] = useState(["#a08417", "#1c648b", "#d11c1c"]);
     const leftContents = [{
         title: "a sdfdsf",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
@@ -72,7 +72,7 @@ export const SliderComponent = () => {
             <div className="absolute h-screen max-h-full ease-in-out duration-[1500ms] space-y-0"
                  style={{ transform: `translateY(${-slide * 100}%)` }}>
                 {background.map((bg, index) => (
-                    <div key={index} className={`w-screen h-screen m-0`}  style={{backgroundImage: `url(${bg})`, backgroundSize: ''}}>
+                    <div key={index} className={`w-screen h-screen m-0`}  style={{backgroundColor: bg,}}>
                     </div>
                 ))}
             </div>
