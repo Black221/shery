@@ -15,11 +15,11 @@ export const Home = () => {
 
     return (<div className={``}>
 
-       {/* Header */}
+        {/* Header */}
         <Header active={"home"} />
 
-       {/* Cover */}
-       <Cover />
+        {/* Cover */}
+        <Cover />
 
         {/* About us */}
         <About />

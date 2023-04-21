@@ -4,7 +4,8 @@ import React from "react";
 export const Sponsorship = () => {
 
     return (
-        <section className="w-10/12 mx-auto md:mt-32 mt-16">
+        <section className="w-10/12 mx-auto md:mt-32 mt-16 md:space-y-32 space-y-20">
+            {/*Section 1*/}
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div className="grid gap-10 lg:grid-cols-2">
                     <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
@@ -55,6 +56,7 @@ export const Sponsorship = () => {
                 </div>
             </div>
 
+            {/*Section 2*/}
             <div className="container px-5 mx-auto">
                 <div className="flex flex-col text-center w-full mb-12">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Comment parrainer ?</h1>
