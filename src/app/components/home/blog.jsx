@@ -8,7 +8,7 @@ const Blog = () => {
                     <div className="flex flex-col items-center justify-center">
                         <span className="mb-4 text-xs font-bold tracking-widest text-blue-600 uppercase"> Blog </span>
                         <h1 className="text-4xl font-semibold leading-9 text-center text-gray-800">Suivez nous dans notre aventure!</h1>
-                        <p className="text-base leading-normal text-center text-gray-600 mt-4 lg:w-1/2 md:w-10/12 w-11/12">If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough</p>
+                        {/* <p className="text-base leading-normal text-center text-gray-600 mt-4 lg:w-1/2 md:w-10/12 w-11/12">If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough</p> */}
                     </div>
                     <div className="lg:flex items-stretch md:mt-12 mt-8">
                         <div className="lg:w-1/2">

@@ -22,8 +22,8 @@ export const Footer = () => {
                             </a>
                         </div>
 
-                        <p className="mb-6 text-gray-500 sm:pr-8">Filler text is dummy text which has no meaning however
-                            looks very similar to real text.</p>
+                        {/* <p className="mb-6 text-gray-500 sm:pr-8">Filler text is dummy text which has no meaning however
+                            looks very similar to real text.</p> */}
 
                         <div className="flex gap-4">
                             <a href="/#" target="_blank"

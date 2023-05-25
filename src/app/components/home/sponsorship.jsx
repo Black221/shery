@@ -19,13 +19,13 @@ export const Sponsorship = () => {
                                 <span className="mb-4 text-xs font-bold tracking-widest text-blue-600 uppercase"> parrainage </span>
                                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Pourquoi parrainer ?
                                 </h1>
-                                <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-                                    air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot
-                                    chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                                <p className="mb-8 leading-relaxed">Le parrainage permet pour les personnes pouvant se le permettre et le désirant, d'acheter des serviettes à celles qui ne le peuvent pas, ce qui va aider à la prise de conscience sur les
+4
+ravages de la précarité menstruelle et participerait à l’amélioration des conditions des jeunes filles et femmes la vivant. </p>
 
                             </div>
                         </div>
-                        <div>
+                        {/* <div>
                             <a href="/" aria-label=""
                                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
                                 Learn more
@@ -34,7 +34,7 @@ export const Sponsorship = () => {
                                         d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
                                 </svg>
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="flex items-center justify-center -mx-4 lg:pl-8">
                         <div className="flex flex-col items-end px-3">
@@ -60,9 +60,9 @@ export const Sponsorship = () => {
             <div className="container px-5 mx-auto">
                 <div className="flex flex-col text-center w-full mb-12">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Comment parrainer ?</h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr
+                    {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr
                         hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably
-                        haven't heard of them man bun deep.</p>
+                        haven't heard of them man bun deep.</p> */}
                 </div>
                 <div
                     className="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
